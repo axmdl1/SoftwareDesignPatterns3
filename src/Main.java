@@ -18,9 +18,9 @@ public class Main {
         lowHandler.setNextHandler(mediumHandler);
         mediumHandler.setNextHandler(highHandler);
 
-        lowHandler.handleTask("Finish Assignment 3", "high");
-        lowHandler.handleTask("Read Lecture 6", "medium");
-        lowHandler.handleTask("Make a command pattern", "low");
+        lowHandler.handleTask("Finish Assignment 3", "High");
+        lowHandler.handleTask("Read Lecture 6", "Medium");
+        lowHandler.handleTask("Make a command pattern", "Low");
 
         System.out.println("------------------------------------------------------------");
 
